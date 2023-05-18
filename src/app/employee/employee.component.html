@@ -1,0 +1,17 @@
+<p>Employee works!</p>
+<table>
+    <thead>
+        <tr>
+            <th>Name</th>
+            <th>Emp Id</th>
+            <th>Shift</th>
+        </tr>
+    </thead>
+    <tbody>
+        <tr *ngFor="let i of Data">
+            <td>{{i.Name}}</td>
+            <td>{{i.EmpId}}</td>
+            <td>{{i.Shift}}</td>
+        </tr>
+    </tbody>
+</table>

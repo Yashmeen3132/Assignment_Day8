@@ -1,0 +1,28 @@
+
+table,th,tr{
+    border: dashed brown 2px ;
+    border-collapse: collapse;
+
+}
+
+table{
+    background-color: burlywood;
+    
+}
+
+th{
+    background-color: chocolate;
+    font-weight: bold;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    color: wheat;
+}
+
+td{
+    color: rgb(168, 6, 39);
+font-weight: bold;
+text-align: center;
+}
+td:hover{
+ background-color: crimson;
+color:wheat;
+}
